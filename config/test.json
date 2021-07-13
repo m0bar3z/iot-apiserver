@@ -1,0 +1,59 @@
+{
+    "appPort": 4000,
+    "mongo": {
+        "host": "mongodb://localhost/cloud"
+    },
+    "hawkeye": {
+        "host": "http://127.0.0.1",
+        "port": 54540
+    },
+    "redis": {
+        "host": "",
+        "port": 6379
+    },
+    "sms": {
+        "negin": {
+            "user": "",
+            "password": "",
+            "host": "http://sms.ir/"
+        },
+        "KavenegarApi": {
+            "apikey": "",
+            "sender": "100018801880"
+        }
+    },
+    "test": {
+        "user": {
+            "username": "alimz",
+            "password": "ali@123",
+            "name": "ali",
+            "family": "mobarez",
+            "email": "a.mobarez@gmail.com",
+            "mobile": "09307511111"
+        },
+        "userScope": "user",
+        "code": "6046",
+        "device": {
+            "name": "device 2",
+            "macId": "device2@123",
+            "relay": 4
+        },
+        "updatedDevice": {
+            "name": "device 2",
+            "deviceId": "6087d135b459e532409e115e",
+            "relayNumber": 5
+        },
+        "shareDevice": {
+            "username": "mohsen",
+            "deviceId": "6087d126d7c199117ca82c7a"
+        },
+        "stopShareDevice": {
+            "username": "mohsen",
+            "deviceId": "6087d126d7c199117ca82c7a"
+        },
+        "appInfo": {
+            "versionCode": 1,
+            "os": "android"
+        }
+    }
+}
